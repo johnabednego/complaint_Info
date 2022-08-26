@@ -22,5 +22,3 @@ app.use('/complaints', router)
 
 mongoose.connect(`${process.env.URL}`).then(()=>app.listen(port, ()=>console.log('Server is running on port: http://localhost:5000'))).catch((error)=>console.log(error))
 
-
-
